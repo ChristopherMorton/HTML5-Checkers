@@ -1,4 +1,4 @@
-var canvas = $('canvas')[0]
+var canvas = $('#checkers')[0]
 var context = canvas.getContext('2d');
 var snd = new Audio('checker_click.wav');
 
@@ -326,6 +326,6 @@ $('p').text( "Initial piece selected." );
    }
 }
 
-$('canvas').click( OnClick ); 
+$('#checkers').click( OnClick ); 
 
 NewGame();

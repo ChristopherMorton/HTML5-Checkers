@@ -11,7 +11,7 @@ doesn't support Javascript or you have it turned off.
 To play this game, please use
 a Javascript enabled browser.</noscript>
    <h1>Checkers</h1>
-   <canvas id="game_canvas" width="320" height="360"></canvas>
+   <canvas id="checkers" width="320" height="360"></canvas>
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
    <script src="roundedRect.js" type="text/javascript"></script>
    <script src="checkers.js" type="text/javascript"></script>
